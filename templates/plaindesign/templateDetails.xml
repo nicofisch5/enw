@@ -48,7 +48,7 @@
 <config>
 <fields name="params">
 <fieldset name="Basic" label="TEMPLATE CONFIGURATION ">
-<field name="logo" type="media" label=" SELECT LOGO" default="templates/plaindesign/images/logo.png" />
+<field name="logo" type="media" label=" SELECT LOGO" default="templates/plaindesign/images/logo.jpg" />
 <field name="responsive" type="radio" default="yes" class="btn-group btn-group-yesno" label="RESPONSIVE">
 <option value="yes"> YES</option>
 <option value="no"> NO</option>

@@ -7,7 +7,7 @@
 <style type="text/css">
 #banner-float { background: <?php echo "$bannerbg"; ?>; color: <?php echo "$bannercolor"; ?>; }
 #banner-float a { color: <?php echo "$bannercolor"; ?>; }
-#banner-float { padding: <?php if($bannerwidth=="fix") echo "15px 0px"; ?>; }
+#banner-float { padding: <?php if($bannerwidth=="fix") echo "1px 0px"; ?>; }
 #banner-inner { <?php if($bannerwidth=="wide") echo "width: 100%; padding: 0px;"; ?> }
 </style>
 </head>
@@ -34,7 +34,7 @@
 <div id="header-outer" class="clr">
 <div id="header-inner">
 <div id="logo">
-<img style="max-width:100%; max-height:80px;" src="<?php echo $this->baseurl ?>/<?php echo "$logo"; ?>" />
+<img style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl ?>/<?php echo "$logo"; ?>" />
 </div>
 <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
 </div>

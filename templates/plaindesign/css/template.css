@@ -4,7 +4,7 @@
 #header-outer { padding: 10px 0px 0px 0px; }
 #copyright-outer { padding: 10px 0px; }
 @media screen and (min-width:480px){
-#header-outer { height: 80px; padding: 10px 0px }
+#header-outer { height: 120px; padding: 10px 0px }
 }
 @media screen and (min-width:768px){
 #copyright-outer { height: 50px; }
@@ -421,7 +421,7 @@ div.search { text-align: left; }
 /*****************************/
 /*********** STYLES **********/
 /*****************************/
-#header-outer { border-bottom: 1px solid #dedede; }
+#header-outer { border-bottom: 1px solid #ffff01; } /* #dedede */
 #top-float, #banner-float, #advert-float, #upper-float, #bottom-float, #footer-float, #body-float { border-bottom: 1px solid #dedede; }
 .advert a, .upper a, .user a, .bottom a, .footer a, .inside a, .dropdown-menu li a, .category-module a, #member-registration a { color: #000000; text-decoration: none; }
 /*****************************/
