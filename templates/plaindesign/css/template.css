@@ -1,3 +1,7 @@
+/** JAUNE LOGO FCN ffff01 */
+/** VERT LOGO FCW 53a230 */
+/** JAUNE LOGO FCW ddd235 */
+
 /******************************/
 /****** Joomla Templates ******/
 /******************************/
@@ -15,7 +19,7 @@
 #top-float { float: left; width: 100%; padding: 5px 0px; }
 #banner-float { float: left; width: 100%; }
 #advert-float, #upper-float, #bottom-float, #footer-float { float: left; width: 100%; padding: 15px 0px; }
-#body-float { float: left; width: 100%; padding: 20px 0px 0px 0px; }
+#body-float { float: left; width: 100%; padding: 20px 0px 0px 0px; background-color: #eee; }
 /******************************/
 /****** Joomla Templates ******/
 /******************************/
@@ -243,7 +247,8 @@ div.search { text-align: left; }
 /******* Joomla Toolbar *******/
 /******************************/
 #toolbar { clear: both; margin: 40px 0px 15px 0px; background: #252525; width: 100%; position: relative; z-index: 5; }
-#toolbar .menu a { font-size: 15px; display: block; text-decoration: none; font-weight: bold; color: #FFFFFF; padding: 3px 15px; border-bottom: 1px solid #FFFFFF; }
+#toolbar .menu a { font-size: 15px; display: block; text-decoration: none; font-weight: bold; color: #FFFFFF; padding: 3px 15px; border-bottom: 10px solid #FFFFFF; }
+#toolbar .menu a:hover { color: #53a230; }
 #toolbar .menu li li a { font-size: 14px; font-weight: bold; color: #FFFFFF; }
 #toolbar .menu li li li a { font-size: 14px; font-weight: normal; color: #FFFFFF; }
 @media screen and (min-width:480px){
@@ -251,7 +256,7 @@ div.search { text-align: left; }
 }
 @media screen and (min-width:768px){
 #toolbar { clear: none; margin: 0px; background: none; width: auto; z-index: auto; }
-#toolbar .menu a { padding: 0px; border-bottom: none; font-size: 15px; font-weight: normal; }
+#toolbar .menu a { padding: 0px; border-bottom: none; font-size: 18px; font-weight: normal; }
 #toolbar .menu li { float: left; position:relative; margin-left: 25px; padding: 0px; border-bottom: none; }
 #toolbar .menu li.active a, #toolbar .menu li.active a:hover, #toolbar .menu li.active a:active, #toolbar .menu li.active a:focus { }
 #toolbar ul.menu a:hover { }
@@ -422,14 +427,14 @@ div.search { text-align: left; }
 /*****************************/
 /*********** STYLES **********/
 /*****************************/
-#header-outer { border-bottom: 1px solid #ffff01; } /* #dedede */
-#top-float, #banner-float, #advert-float, #upper-float, #bottom-float, #footer-float, #body-float { border-bottom: 1px solid #dedede; }
+#header-outer { border-bottom: 2px solid /*#53a230*/ #ddd235; } /* #dedede */
+#top-float, #banner-float, #advert-float, #upper-float, #bottom-float, #footer-float, #body-float { border-bottom: 2px solid #ddd235; }
 .advert a, .upper a, .user a, .bottom a, .footer a, .inside a, .dropdown-menu li a, .category-module a, #member-registration a { color: #000000; text-decoration: none; }
 /*****************************/
 /*********** STYLES **********/
 /*****************************/
 .blog-featured h2 a, .blog h2 a, .readmore a, a.readmore, #login-form a, #copyright a, #designer a, .pagination a, .pagenav a, .newsflash-title a, .items-more a, .category-name a, #topmenu a, #topright a, .item-page h2 a { color: #000000; text-decoration: none; }
-.blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { border-bottom: 1px solid #dedede; }
+.blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { border-bottom: 1px solid #ddd235; }
 .pagination .pagenav { border: 1px solid #c0c0c0; }
 .pagination .pagination-next a, .pagination .pagination-end a { color: #000000; }
 .pagination .pagination-start a, .pagination .pagination-prev a { color: #000000; }
@@ -451,7 +456,9 @@ form#login-form { border: 1px solid #dedede; }
 #toolbar .menu a { color: #000000; }
 #toolbar .menu li li a { color: #000000; }
 #toolbar .menu li li li a { color: #000000; }
-#toolbar .menu ul { background: #FFFFFF; border-bottom: 1px solid #dedede; border-right: 1px solid #dedede; border-left: 1px solid #dedede; }
+#toolbar .menu ul { background: #FFFFFF; border-bottom: 1px solid #53a230; border-right: 1px solid #53a230; border-left: 1px solid #53a230; }
+/* #toolbar .menu ul { background: #FFFFFF; border-bottom: 1px solid #dedede; border-right: 1px solid #dedede; border-left: 1px solid #dedede; } */
 #toolbar .menu ul ul { background: #FFFFFF; border-top: 1px solid #dedede; }
 #toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { color: #000000; }
+#copyright-outer { background-color: #ddd235; }
 }
