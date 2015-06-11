@@ -29,6 +29,7 @@
 /****** Joomla Templates ******/
 /******************************/
 #logo { max-width: 300px; margin: 0 auto; padding: 0px 15px; }
+#logo a { text-decoration: none; }
 #copyright, #designer { text-align: center; color: #000000; }
 #header { display: none; }
 @media screen and (min-width:480px){
