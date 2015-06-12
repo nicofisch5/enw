@@ -2,6 +2,11 @@
 /** VERT LOGO FCW 53a230 */
 /** JAUNE LOGO FCW ddd235 */
 
+* { font-family: 'Chelsea Market', Georgia, serif; }
+/* p { font-family: Arial; }*/
+.item-page *, .items-leading * { font-family: Arial; }
+.page-header *, .item-title * { font-family: 'Chelsea Market', Georgia, serif; }
+
 /******************************/
 /****** Joomla Templates ******/
 /******************************/
@@ -11,7 +16,7 @@
 #header-outer { height: 120px; padding: 10px 0px }
 }
 @media screen and (min-width:768px){
-#copyright-outer { height: 50px; }
+#copyright-outer { height: 30px; }
 }
 /******************************/
 /****** Joomla Templates ******/
@@ -34,18 +39,17 @@
 /******************************/
 #logo { max-width: 300px; margin: 0 auto; padding: 0px 15px; }
 #logo a { text-decoration: none; }
-#copyright, #designer { text-align: center; color: #000000; }
 #header { display: none; }
 @media screen and (min-width:480px){
-#logo { float: left; max-width: none; padding: 0px 0px 0px 15px; }
+#logo, #site-title { float: left; max-width: none; padding: 0px 0px 0px 15px; }
 }
 @media screen and (min-width:768px){
 #logo { padding: 0px; max-height: 80px; }
 #topmenu { float: left; }
 #topright { float: right; }
 #header { display: inline; float: right; max-width: 590px; height: 80px; overflow: hidden; }
-#copyright { float: left; margin-top: 16px; }
-#designer { float: right; margin-top: 16px; }
+#copyright { float: left; margin-top: 9px; }
+#designer { float: right; margin-top: 9px; }
 }
 /******************************/
 /****** Joomla Templates ******/
@@ -136,6 +140,7 @@ form input, form select { font-size: 15px; }
 /******************************/
 /******* Joomla Default *******/
 /******************************/
+#site-title { padding-bottom: 2px; margin: 30px; font-size: 28px; }
 .blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { padding-bottom: 2px; margin-bottom: 15px; font-size: 22px; }
 .moduletable h3, .moduletable_menu h3 { margin-bottom: 15px; font-size: 20px; }
 .blog-featured h2, .blog h2 { font-size: 18px; }
@@ -433,7 +438,7 @@ div.search { text-align: left; }
 /*****************************/
 /*********** STYLES **********/
 /*****************************/
-.blog-featured h2 a, .blog h2 a, .readmore a, a.readmore, #login-form a, #copyright a, #designer a, .pagination a, .pagenav a, .newsflash-title a, .items-more a, .category-name a, #topmenu a, #topright a, .item-page h2 a { color: #000000; text-decoration: none; }
+.blog-featured h2 a, .blog h2 a, .readmore a, a.readmore, #login-form a, #copyright a, .pagination a, .pagenav a, .newsflash-title a, .items-more a, .category-name a, #topmenu a, #topright a, .item-page h2 a { color: #000000; text-decoration: none; }
 .blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { border-bottom: 1px solid #ddd235; }
 .pagination .pagenav { border: 1px solid #c0c0c0; }
 .pagination .pagination-next a, .pagination .pagination-end a { color: #000000; }
@@ -452,6 +457,9 @@ form#login-form { border: 1px solid #dedede; }
 /*****************************/
 /*********** STYLES **********/
 /*****************************/
+dl.article-info dt { display: none; }
+dl.article-info dd { font-size: 11px; font-style: italic; }
+
 @media screen and (min-width:768px){
 #toolbar .menu a { color: #000000; }
 #toolbar .menu li li a { color: #000000; }
@@ -460,5 +468,6 @@ form#login-form { border: 1px solid #dedede; }
 /* #toolbar .menu ul { background: #FFFFFF; border-bottom: 1px solid #dedede; border-right: 1px solid #dedede; border-left: 1px solid #dedede; } */
 #toolbar .menu ul ul { background: #FFFFFF; border-top: 1px solid #dedede; }
 #toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { color: #000000; }
-#copyright-outer { background-color: #ddd235; }
+#copyright-outer { background-color: #000; }
+#copyright, #designer, #designer a { font-size: 11px; text-align: center; color: #ddd235; }
 }

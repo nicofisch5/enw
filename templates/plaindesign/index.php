@@ -1,9 +1,16 @@
-<?php defined('_JEXEC') or die('Restricted access'); JHtml::_('behavior.framework', true); ?>
+<?php
+defined('_JEXEC') or die('Restricted access');
+JHtml::_('behavior.framework', true);
+
+$app             = JFactory::getApplication();
+$sitename = $app->get('sitename');
+?>
 <?php require_once dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/functions.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 <head>
 <jdoc:include type="head" />
+    <link href='http://fonts.googleapis.com/css?family=Chelsea+Market' rel='stylesheet' type='text/css'>
 <style type="text/css">
 #banner-float { background: <?php echo "$bannerbg"; ?>; color: <?php echo "$bannercolor"; ?>; }
 #banner-float a { color: <?php echo "$bannercolor"; ?>; }
@@ -39,6 +46,11 @@
             <img style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcw.png'; ?>" />
         </a>
     </div>
+
+        <div id="site-title">
+            <?php echo htmlspecialchars($sitename); ?>
+        </div>
+
     <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
     </div>
     </div>
