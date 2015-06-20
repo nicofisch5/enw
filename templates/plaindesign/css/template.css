@@ -19,8 +19,9 @@
 }
 @media screen and (min-width:768px){
     #copyright-outer { height: 30px; }
-    #banner-outer, .item-image { display: block; max-width: 730px; }
-}
+    #banner-outer, .item-image { display: block; }
+    #banner-outer img, .item-image img { max-width: 730px; }
+    }
 /******************************/
 /****** Joomla Templates ******/
 /******************************/
