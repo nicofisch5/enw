@@ -4,8 +4,9 @@
 
 * { font-family: 'Chelsea Market', Georgia, serif; }
 /* p { font-family: Arial; }*/
-.item-page *, .items-leading * { font-family: Arial; }
+.item-page p, .items-leading p { font-family: Arial; }
 .page-header *, .item-title * { font-family: 'Chelsea Market', Georgia, serif; }
+a, .page-header a, .item-title a { color: #53a230; text-decoration: none; font-weight: bold; font-family: 'Chelsea Market'; }
 
 /******************************/
 /****** Joomla Templates ******/
@@ -33,7 +34,7 @@
 /****** Joomla Templates ******/
 /******************************/
 #header-inner { margin: 0 auto; }
-#top-inner, #banner-inner, #advert-inner, #upper-inner, #body-inner, #bottom-inner, #footer-inner, #copyright-inner { margin: 0 auto; padding: 0px 15px; }
+#top-inner, #banner-inner, #advert-inner, #upper-inner, #body-inner, #bottom-inner, #footer-inner, #copyright-inner { margin: 0 auto; padding: 10px 15px; }
 @media screen and (min-width:768px){
 #header-inner { width: 960px; padding: 0px 15px; }
 #top-inner, #banner-inner, #advert-inner, #upper-inner, #body-inner, #bottom-inner, #footer-inner, #copyright-inner { width: 960px; }
@@ -442,7 +443,6 @@ div.search { text-align: left; }
 /*****************************/
 /*********** STYLES **********/
 /*****************************/
-.blog-featured h2 a, .blog h2 a, .readmore a, a.readmore, #login-form a, #copyright a, .pagination a, .pagenav a, .newsflash-title a, .items-more a, .category-name a, #topmenu a, #topright a, .item-page h2 a { color: #000000; text-decoration: none; }
 .blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { border-bottom: 1px solid #ddd235; }
 .pagination .pagenav { border: 1px solid #c0c0c0; }
 .pagination .pagination-next a, .pagination .pagination-end a { color: #000000; }
