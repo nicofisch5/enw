@@ -472,6 +472,7 @@ dl.article-info dd { font-size: 11px; font-style: italic; }
 /* #toolbar .menu ul { background: #FFFFFF; border-bottom: 1px solid #dedede; border-right: 1px solid #dedede; border-left: 1px solid #dedede; } */
 #toolbar .menu ul ul { background: #FFFFFF; border-top: 1px solid #dedede; }
 #toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { color: #000000; }
+}
+
 #copyright-outer { background-color: #000; }
 #copyright, #designer, #designer a { font-size: 11px; text-align: center; color: #ddd235; }
-}
