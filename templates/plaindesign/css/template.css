@@ -243,8 +243,8 @@ div.search { text-align: left; }
 /******************************/
 /******* Joomla Toolbar *******/
 /******************************/
-#navigation { height: 34px; background: #999999; padding: 5px 0px; }
-.navigation { float: left; margin: 5px 0px 0px 15px; color: #000000; font-weight: bold; }
+#navigation { height: 34px; background: #000; padding: 5px 0px; }
+.navigation { float: left; margin: 5px 0px 0px 15px; font-size: 11px; text-align: center; color: #ddd235; }
 @media screen and (min-width:480px){
 #navigation { height: auto; background: none; padding: 0px; }
 .navigation { display: none; }
