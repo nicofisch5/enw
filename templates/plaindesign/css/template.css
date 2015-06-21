@@ -4,7 +4,10 @@
 
 * { font-family: 'Chelsea Market', Georgia, serif; }
 /* p { font-family: Arial; }*/
-.item-page p, .items-leading p { font-family: Arial; }
+.item-page p, .items-leading p, .items-row p,
+.item-page ul li, .items-leading ul li, .items-row ul li
+{ font-family: Arial; }
+
 .page-header *, .item-title * { font-family: 'Chelsea Market', Georgia, serif; }
 a, .page-header a, .item-title a { color: #53a230; text-decoration: none; font-weight: bold; font-family: 'Chelsea Market'; }
 
@@ -53,8 +56,8 @@ a, .page-header a, .item-title a { color: #53a230; text-decoration: none; font-w
 #topmenu { float: left; }
 #topright { float: right; }
 #header { display: inline; float: right; max-width: 590px; height: 80px; overflow: hidden; }
-#copyright { float: left; margin-top: 9px; }
-#designer { float: right; margin-top: 9px; }
+#copyright { float: left; }
+#designer { float: right; }
 }
 /******************************/
 /****** Joomla Templates ******/
@@ -101,7 +104,7 @@ p { margin: 15px 0px; }
 ul.menu, ul.menu ul, ul.menu ul ul, .pagination ul, .actions li, #login-form ul, ul.dropdown-menu, ul.breadcrumb, ul.pagenav, ul.category-module { list-style: none; padding: 0; margin: 0; }
 img { border: none; padding: 0; margin: 0; }
 .clr { clear: both; }
-h1, h2, h3, h4, h5 { margin: 0px;}
+h1, h2, h3, h4, h5 { margin: 0px; border-bottom: 1px solid #ddd235;}
 h1 { font-size: 26px; }
 h2 { font-size: 24px; }
 h3 { font-size: 22px; }
@@ -164,7 +167,8 @@ ul.actions { float: right; margin-top: -20px; }
 p.counter { margin-top: -5px; }
 .newsflash-title { margin-top: 15px; }
 .category-desc { margin-bottom: 15px; float: left; width: 100%; }
-dl.article-info dd { padding: 0; margin: 0; }
+dl.article-info dd { padding: 0; margin: 0; display: inline-block; }
+dl.article-info dd.category-name::after { content: " // "; }
 #system-message-container, #system-message { margin: 0px; }
 #header p { margin: 0px; }
 @media screen and (min-width:480px){
@@ -177,7 +181,6 @@ dl.article-info dd { padding: 0; margin: 0; }
 .moduletable h3, .moduletable_menu h3 { font-size: 18px; }
 .blog-featured h2, .blog h2 { font-size: 16px; }
 .pagination li { display: inline; }
-p.readmore { text-align: right; }
 }
 /******************************/
 /******* Joomla Default *******/
@@ -449,6 +452,7 @@ div.search { text-align: left; }
 .pagination .pagination-start a, .pagination .pagination-prev a { color: #000000; }
 #modlgn-username, #modlgn-passwd, #jform_contact_name, #jform_contact_email, #jform_contact_emailmsg, #jform_contact_message, .search .inputbox { border: 1px solid #c0c0c0; }
 input.button, button.button, button.btn { border: 1px solid #c0c0c0; }
+a.btn { font-size: 11px;}
 form#login-form { border: 1px solid #dedede; }
 #searchForm #ordering, #searchForm #limit { border: 1px solid #c0c0c0; }
 .contact-form fieldset { border: 1px solid #dedede; }
