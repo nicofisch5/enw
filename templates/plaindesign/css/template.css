@@ -6,7 +6,7 @@
 /* p { font-family: Arial; }*/
 .item-page p, .items-leading p, .items-row p,
 .item-page ul li, .items-leading ul li, .items-row ul li,
-.contact p, .contact div, .contact ul li, .contact dl dd, .contact span, .contact span a, .contact .contact-form *
+.contact p, .contact div, .contact ul li, .contact dl dd, .contact span a, .contact .contact-form *
 { font-family: Arial; }
 
 .page-header *, .item-title * { font-family: 'Chelsea Market', Georgia, serif; }
