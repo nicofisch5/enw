@@ -12,6 +12,16 @@
 .page-header *, .item-title * { font-family: 'Chelsea Market', Georgia, serif; }
 a, .page-header a, .item-title a { color: #53a230; text-decoration: none; font-weight: bold; font-family: 'Chelsea Market'; }
 
+table {
+    border-collapse: collapse;
+}
+table, tr, td {
+    border: 1px solid #ddd235;
+}
+td {
+    padding: 5px;
+}
+
 /******************************/
 /****** Joomla Templates ******/
 /******************************/
