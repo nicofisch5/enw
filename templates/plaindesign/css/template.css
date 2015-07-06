@@ -9,6 +9,10 @@
 .contact p, .contact div, .contact ul li, .contact dl dd, .contact span a, .contact .contact-form *
 { font-family: Arial; }
 
+.items-leading > .clearfix {
+    margin-bottom: 50px;
+}
+
 .page-header *, .item-title * { font-family: 'Chelsea Market', Georgia, serif; }
 a, .page-header a, .item-title a { color: #53a230; text-decoration: none; font-weight: bold; font-family: 'Chelsea Market'; }
 
