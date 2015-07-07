@@ -9,7 +9,7 @@
 .contact p, .contact div, .contact ul li, .contact dl dd, .contact span a, .contact .contact-form *
 { font-family: Arial; }
 
-.items-leading > .clearfix {
+.items-leading > * {
     margin-bottom: 50px;
 }
 
