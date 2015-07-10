@@ -31,7 +31,7 @@ td {
 /******************************/
 #header-outer { padding: 10px 0px 0px 0px; }
 #copyright-outer { padding: 10px 0px; }
-#banner-outer img, .item-image img { max-width: 280px; }
+#banner-outer img, .item-image img { max-width: 310px; }
 
 @media screen and (min-width:480px){
     #header-outer { height: 120px; padding: 10px 0px }
