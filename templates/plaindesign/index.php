@@ -54,13 +54,13 @@ $sitename = $app->get('sitename');
     <div id="header-inner">
     <div id="logo">
         <a href="<?php echo $this->baseurl; ?>/">
-            <img style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcn.jpg'; ?>" />
-            <img style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcw.png'; ?>" />
+            <img alt="Logo Football Club Niederschaeffolsheim" style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcn.jpg'; ?>" />
+            <img alt="Logo Football Club Weitruch" style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcw.png'; ?>" />
         </a>
     </div>
 
         <div id="site-title">
-            <?php echo htmlspecialchars($sitename); ?>
+            <h1><?php echo htmlspecialchars($sitename); ?></h1>
         </div>
 
     <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
