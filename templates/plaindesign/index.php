@@ -51,20 +51,22 @@ $sitename = $app->get('sitename');
     </div>
     <?php endif; ?>
     <div id="header-outer" class="clr">
-    <div id="header-inner">
-    <div id="logo">
-        <a href="<?php echo $this->baseurl; ?>/">
-            <img alt="Logo Football Club Niederschaeffolsheim" style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcn.jpg'; ?>" />
-            <img alt="Logo Football Club Weitruch" style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcw.png'; ?>" />
-        </a>
-    </div>
+        <div id="header-inner">
+            <div id="logo">
+                <a href="<?php echo $this->baseurl; ?>/">
+                    <img alt="Logo Football Club Niederschaeffolsheim" style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcn.jpg'; ?>" />
+                    <img alt="Logo Football Club Weitruch" style="max-width:100%; max-height:120px;" src="<?php echo $this->baseurl  . '/templates/' . $this->template . '/images/logo_fcw.png'; ?>" />
+                </a>
+            </div>
 
-        <div id="site-title">
-            <h1><?php echo htmlspecialchars($sitename); ?></h1>
+            <div id="site-title">
+                <?php echo htmlspecialchars($sitename); ?>
+                <h1>Site de l'entente des clubs de football de Niederschaeffolsheim et Weitbruch</h1>
+            </div>
+
+            <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
+
         </div>
-
-    <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
-    </div>
     </div>
     <?php if($this->countModules('banner')) : ?>
     <div id="banner-outer" class="clr">
