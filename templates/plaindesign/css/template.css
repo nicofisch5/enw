@@ -64,10 +64,10 @@ td {
 #logo { max-width: 300px; margin: 0 auto; padding: 0px 15px; }
 #logo a { text-decoration: none; }
 #header { display: none; }
+#site-title a { color: #000; font-weight: normal; }
 @media screen and (min-width:480px){
 #logo, #site-title { float: left; max-width: none; padding: 0px 0px 0px 15px; }
 #site-title { width: 395px; }
-#site-title a { color: #000; font-weight: normal; }
 }
 @media screen and (min-width:768px){
 #logo { padding: 0px; max-height: 80px; }
