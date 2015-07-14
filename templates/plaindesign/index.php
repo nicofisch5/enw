@@ -60,8 +60,12 @@ $sitename = $app->get('sitename');
             </div>
 
             <div id="site-title">
-                <?php echo htmlspecialchars($sitename); ?>
-                <h1>Site de l'entente des clubs de football de Niederschaeffolsheim et Weitbruch</h1>
+                <a href="<?php echo $this->baseurl; ?>/">
+                    <?php echo htmlspecialchars($sitename); ?>
+                </a>
+                <h1>
+                    <a href="<?php echo $this->baseurl; ?>/">Site de l'entente des clubs de football de Niederschaeffolsheim et Weitbruch</a>
+                </h1>
             </div>
 
             <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
