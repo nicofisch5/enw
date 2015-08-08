@@ -67,11 +67,13 @@ $sitename = $app->get('sitename');
                     <a href="<?php echo $this->baseurl; ?>/">Site de l'entente des clubs de football de Niederschaeffolsheim et Weitbruch</a>
                 </h1>
             </div>
-
-            <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
-
         </div>
     </div>
+
+    <div id="top-inner" class="clr">
+            <?php include dirname(__FILE__).DIRECTORY_SEPARATOR.'framework/toolbar.php'; ?>
+    </div>
+
     <?php if($this->countModules('banner')) : ?>
     <div id="banner-outer" class="clr">
     <div id="banner-float">

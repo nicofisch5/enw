@@ -273,7 +273,7 @@ div.search { text-align: left; }
 .navigation { display: none; }
 }
 @media screen and (min-width:768px){
-#navigation { float: right; margin-top: 30px; }
+#navigation { float: left; margin-top: 5px; }
 }
 /******************************/
 /******* Joomla Toolbar *******/
